@@ -79,3 +79,6 @@ div p {
     font-family: serif;
     font-size: 13px;
 }
+ul {
+    list-style-type: square;
+}
