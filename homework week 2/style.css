@@ -1,0 +1,174 @@
+/*
+Project Name: Relaxr
+Client: Your Client
+Author: Stephanie Mason
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+
+/* Box Model Hack */
+
+* {
+    -moz-box-sizing: border-box;
+    /* Firexfox */
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box;
+    /* IE */
+}
+
+
+/* Clear fix hack */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.alignright {
+    float: right;
+    padding: 0 0 10px 10px;
+    /* note the padding around a right floated image */
+}
+
+.alignleft {
+    float: left;
+    padding: 0 10px 10px 0;
+    /* note the padding around a left floated image */
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    line-height: 1.4;
+    margin: 0px;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/* Center the container */
+
+#container {
+    width: 525px;
+    position: absolute;
+    left: 50%;
+    margin-left: -263px;
+}
+
+header {
+    background: url(images/header_bg.jpg) no-repeat center top rgb(134, 141, 157);
+    background-size:contain;
+    height: 305px;
+    padding: 0px 0px 0px 0px;
+}
+
+h1 {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left
+   }
+
+h2 {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    }
+
+
+/* Benefit Section */
+
+#benefitSection {
+    color: #606161;
+    height: 270px;
+    text-align: left;
+    font-size: 13px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    width: 525px;
+    padding: 10px 180px 10px 40px;
+}
+
+h3 {
+    color: #033048;
+    font-size: 20px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: inherit;
+    margin-left: 35px;
+    list-style-position: inside;
+}
+
+li {
+    padding: 1px 40px 0px 5px;
+}
+
+#testimonialSection {
+    background: url(images/testimonial_bg.jpg) rgb(134, 141, 157);
+    background-size: 100%;
+    height: 170px;
+    padding: 25px 115px
+}
+
+#signUpSection {
+    background-color: #f9e42e;
+    height: 53px;
+}
+
+section,
+header,
+footer {
+    padding: 40px 120px;
+    text-align: center;
+}
+
+footer {
+    background-color: #121212;
+    height: 155px;
+}
+footer div h1 {
+    text-align: center;
+    color: #f9e42e;
+}
+section blockquote p{
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 10px;    
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
