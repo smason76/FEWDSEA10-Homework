@@ -61,6 +61,8 @@ body {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     line-height: 1.4;
     margin: 0px;
+    max-width: 1202px;
+    max-height: 2178px;
 }
 
 
@@ -72,49 +74,83 @@ body {
 /* Center the container */
 
 #container {
-    width: 525px;
+    width: 1202px;
+    padding: 0px 0px 0px 0px;
+    border: 0px;
     position: absolute;
     left: 50%;
-    margin-left: -263px;
+    margin-left: -601px;
 }
 
 header {
     background: url(images/header_bg.jpg) no-repeat center top rgb(134, 141, 157);
-    background-size:contain;
-    height: 305px;
-    padding: 0px 0px 0px 0px;
+    background-size: contain;
+    width: 1202px;
+    height: 702px;
+    border: 0px solid #121212;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.hdiv {
+    /*    width: 892px;*/
+    /*    height: 376px;*/
+    /*    margin: 0px 202px 325px 108px;*/
+    /*    padding: 28px 202px 298px 108px;*/
 }
 
 h1 {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size: 24px;
+    font-size: 42px;
     font-weight: 800;
-    text-align: left
-   }
+    text-align: left;
+    padding: 50px 0px 0px 0px;
+    border: 0px;
+    margin: 0px 0px 0px 200px;
+}
 
 h2 {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size: 24px;
+    font-size: 42px;
     font-weight: 600;
-    }
+    padding: 0px;
+    border: 0px;
+    margin: 80px 0px 0px 49px;
+    text-align: center;
+}
 
 
 /* Benefit Section */
 
+.bdiv {
+    /*    width: 604px;*/
+    height: 448px;
+    margin: 96px 420px 68px 200px;
+    /*    padding: 10px 180px 0px 108px;*/
+}
+
 #benefitSection {
+    background-color: f0efef;
     color: #606161;
-    height: 270px;
+    /*    height: 612px;*/
     text-align: left;
-    font-size: 13px;
+    font-size: 24px;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-weight: 300;
-    width: 525px;
-    padding: 10px 180px 10px 40px;
+    /*    width: 1202px;*/
+    padding: 0px;
+}
+
+.bp {
+    margin-left: 6px;
 }
 
 h3 {
     color: #033048;
-    font-size: 20px;
+    font-size: 42px;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-weight: 600;
     text-align: left;
@@ -128,47 +164,109 @@ ul {
 }
 
 li {
-    padding: 1px 40px 0px 5px;
+    padding: 1px 90px 5px 30px;
 }
 
 #testimonialSection {
     background: url(images/testimonial_bg.jpg) rgb(134, 141, 157);
     background-size: 100%;
-    height: 170px;
-    padding: 25px 115px
+    height: 394px;
+    padding-left: 310px;
+    padding-right: 310px;
+    padding-top: 74px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
 }
 
 #signUpSection {
     background-color: #f9e42e;
-    height: 53px;
+    height: 120px;
 }
 
 section,
 header,
 footer {
-    padding: 40px 120px;
-    text-align: center;
+    padding: 0px 0px;
+    /*    text-align: center;*/
 }
 
 footer {
     background-color: #121212;
-    height: 155px;
+    height: 350px;
+    width: 1202px;
 }
+
 footer div h1 {
     text-align: center;
     color: #f9e42e;
+    padding-bottom: 50px;
+    margin-left: 0px;
+    margin-top: 0px;
 }
-section blockquote p{
+
+.copyrightDiv {
+    text-align: center;
+    padding: 50px;
+    font-family:'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 19px;
+}
+
+.linkDiv {
+    text-align: center;
+    padding: 5px;
+}
+.logos{
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+section blockquote p {
     color: #fff;
-    font-size: 18px;
+    font-size: 35px;
     font-style: italic;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-weight: 300;
     text-align: center;
-    padding-bottom: 10px;    
+    padding-bottom: 10px;
 }
 
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+
+/*Button Styles*/
+
+.button1 {
+    background-color: #f9e42e;
+    width: 302px;
+    height: 62px;
+    color: #121212;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin: 80px -150px;
+}
+
+.button2 {
+    background-color: #033048;
+    width: 302px;
+    height: 62px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin: 28px -150px;
+}
